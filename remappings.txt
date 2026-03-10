@@ -1,0 +1,8 @@
+openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/
+
+solmate/=lib/solmate/src/
+solady/=lib/solady/src/
+
+common/=src/common/
+dev/=src/dev/
+exchange/=src/exchange/
