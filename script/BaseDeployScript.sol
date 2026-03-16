@@ -61,10 +61,10 @@ abstract contract BaseDeployScript is Script {
 
     function _getConfig() internal view returns (Config memory cfg) {
         if (block.chainid == 84532) {
-            cfg.usdc = 0x7E6d9618Ba8a87421609352d6e711958A97e2512;
-            cfg.ctf = 0x7E6d9618Ba8a87421609352d6e711958A97e2512;
-            cfg.proxyFactory = address(0);
-            cfg.safeFactory = address(0);
+            cfg.usdc = 0x8542FC3a56280a3795990E243c2f99Eb2eBcD51E;
+            cfg.ctf = 0x5608E0FCE82574071dd083B2a644A24bbE8847e7;
+            cfg.proxyFactory = 0x829170f96E5272feCcf1610DdB45adE63d463Fce;
+            cfg.safeFactory = 0xeA3065466332534b25DB041d34773C7206F3884A;
         }
     } 
 }
